@@ -12,7 +12,7 @@ import React from 'react';
 
 // same thing as above
 
-const Greet = () => <h1> Hello Sakib! </h1>
+const Greet = () => <h1> Hello Sakib(functional)! </h1>
 
 // exporting as default enables us to import it by any name
 // other one is constant
