@@ -12,7 +12,15 @@ import React from 'react';
 
 // same thing as above
 
-const Greet = () => <h1> Hello Sakib(functional)! </h1>
+const Greet = (props) => {
+    console.log(props);
+    return(
+        <div>
+            <h1> Hello { props.name } { props.heroName }(functional)! </h1>
+            {props.children}
+        </div>
+    );
+};
 
 // exporting as default enables us to import it by any name
 // other one is constant

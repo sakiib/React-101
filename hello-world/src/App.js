@@ -10,9 +10,15 @@ function App() {
     <div className="App">
       {/* <Greet> </Greet> */}
       {/* same as above, with a self closing as there's nothing inside it */}
-      <Greet />
-      <Welcome />
-      <Hello />
+      <Greet name="Bruce" heroName="Batman"> 
+        <p> This is children props! </p>
+      </Greet>
+      <Greet name="Clark" heroName="Superman"> 
+        <button> Click! </button>
+      </Greet>
+      <Greet name="Diana" heroName="WonderWoman"/>
+      <Welcome name="Bruce" heroName="Superman"/>
+      {/* <Hello /> */}
     </div>
   );
 }
