@@ -4,10 +4,12 @@ import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Hello from './components/Hello';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
+      <Message />
       {/* <Greet> </Greet> */}
       {/* same as above, with a self closing as there's nothing inside it */}
       <Greet name="Bruce" heroName="Batman"> 
