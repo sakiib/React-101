@@ -12,11 +12,14 @@ import React from 'react';
 
 // same thing as above
 
+// const Greet = ({name, heroName}) destructuring in parameter
 const Greet = (props) => {
-    console.log(props);
+    // console.log(props);
+    // destructuring props
+    const { name, heroName } = props;
     return(
         <div>
-            <h1> Hello { props.name } { props.heroName }(functional)! </h1>
+            <h1> Hello { name } { heroName }(functional)! </h1>
             {props.children}
         </div>
     );
