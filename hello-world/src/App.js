@@ -8,26 +8,26 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
 
 function App() {
   return (
     <div className="App">
-      <ClassClick />
-      <FunctionClick />
-      <Counter> 
-        
-      </Counter>
-      <Message />
+      <EventBind />
+      {/* <ClassClick /> */}
+      {/* <FunctionClick /> */}
+      {/* <Counter />  */}
+      {/* <Message /> */}
       {/* <Greet> </Greet> */}
       {/* same as above, with a self closing as there's nothing inside it */}
-      <Greet name="Bruce" heroName="Batman"> 
+      {/* <Greet name="Bruce" heroName="Batman"> 
         <p> This is children props! </p>
       </Greet>
       <Greet name="Clark" heroName="Superman"> 
         <button> Click! </button>
       </Greet>
       <Greet name="Diana" heroName="WonderWoman"/>
-      <Welcome name="Bruce" heroName="Superman"/>
+      <Welcome name="Bruce" heroName="Superman"/> */}
       {/* <Hello /> */}
     </div>
   );
