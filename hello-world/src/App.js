@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
+import Hello from './components/Hello';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       {/* same as above, with a self closing as there's nothing inside it */}
       <Greet />
       <Welcome />
+      <Hello />
     </div>
   );
 }
